@@ -23,7 +23,7 @@ node.routable_control_ip = "true"
 node.cores = 8
 node.ram = 8192
     
-node.disk_image = "urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU18-64-STD"
+node.disk_image = "urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU16-64-STD"
   
 # Print the RSpec to the enclosing page.
 pc.printRequestRSpec(request)
