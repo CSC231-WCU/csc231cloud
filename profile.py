@@ -18,10 +18,8 @@ tour = IG.Tour()
 tour.Description(IG.Tour.TEXT,tourDescription)
 request.addTour(tour)
 
-node = request.XenVM("taz")
+node = request.RawPC("taz")
 node.routable_control_ip = "true"
-node.cores = 8
-node.ram = 8192
     
 node.disk_image = "urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU16-64-STD"
   
