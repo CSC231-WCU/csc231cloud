@@ -10,8 +10,7 @@ request = pc.makeRequestRSpec()
 
 tourDescription = \
 """
-This profile provides the template for a full research cluster with head node, scheduler, compute nodes, and shared file systems.
-At the moment, we start with a single node running MPI.
+A single node to act as a server.
 """
 
 # Setup the Tour info with the above description and instructions.  
