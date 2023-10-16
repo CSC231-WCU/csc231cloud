@@ -21,7 +21,8 @@ request.addTour(tour)
 node = request.RawPC("taz")
 node.routable_control_ip = "true"
     
-node.disk_image = "urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU16-64-STD"
+node.disk_image = "urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU20-64-STD"
+node.addService(pg.Execute(shell="sh", command="sudo bash /local/repository/install_runner.sh"))
   
 # Print the RSpec to the enclosing page.
 pc.printRequestRSpec(request)
